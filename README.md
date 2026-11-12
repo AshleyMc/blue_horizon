@@ -1,6 +1,7 @@
 # Project Blue Horizon Design System
 
-This is a static, multi-page design-system documentation site for the BCBS Mississippi Project Blue Horizon reference set. Open `index.html` in a browser and use the shared navigation to move between pages. The site works without a build step.
+This is a portfolio recreation of a design system I authored at Blue Cross & Blue Shield of Mississippi. I rebuilt it from my own documentation and design decisions to show my approach. The original was used by four front-end developers (two web, two mobile) across four projects.
+Open `index.html` in a browser and use the shared navigation to move between pages. The site works without a build step.
 
 ## Files
 
@@ -37,13 +38,12 @@ Keep `tokens.css` and `tokens.json` aligned when a token changes. The exports ar
 
 ## Status and ownership
 
-Version 1.0 preview. The existing HTML, CSS, image, palette, button, and typography references were used as source material. Contrast examples are calculated from the displayed foreground/background values; review them with the accessibility owner before adoption. The source references do not establish a release owner, support policy, or browser support matrix. Assign those before calling this release-ready.
+The existing HTML, CSS, image, palette, button, and typography references were used as source material. Contrast examples are calculated from the displayed foreground/background values; review them with the accessibility owner before adoption. The source references do not establish a release owner, support policy, or browser support matrix. Assign those before calling this release-ready.
 
 The button hierarchy follows the updated button document: solid orange for the primary form submission, solid blue for a primary non-submit action, outline for secondary/equal actions, and flat gray for cancel/reset/exit. Use one solid primary action per page. Orange outline is reserved for pages that truly need multiple form submissions; reconsider the structure first.
 
 ## Suggested release checklist
 
-- Name a design-system owner and code owner.
 - Confirm the supported browsers, devices, and accessibility target.
 - Review the legacy password behavior with Security; this preview keeps passwords masked by default on every device.
 - Validate every documented component and token pair with accessibility review.
